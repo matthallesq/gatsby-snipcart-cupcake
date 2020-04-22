@@ -71,7 +71,7 @@ class Item extends React.Component {
 
    // calculate price based on option selected for display on item page
   updatePrice = (basePrice, values) => {
-    const selectedOption = values.find(option => option.name === this.state.selected)
+    const selectedOption = values.find(option => option.size === this.state.selected)
     return (basePrice + selectedOption.priceChange).toFixed(2)
     
   }
@@ -89,10 +89,10 @@ class Item extends React.Component {
         <Price>£{this.updatePrice(item.frontmatter.price, item.frontmatter.customField.values)}</Price>
         <Description>{item.frontmatter.description}</Description>
         <Dropdown
-          id={item.frontmatter.customField.name}
+          id={item.frontmatter.customField.size}
           onChange={(e) => this.setSelected(e.target.value)}
           value={this.state.selected}>
-          {item.frontmatter.customField.values.map((option) => (<DropdownOption key={option.name}>{option.name}</DropdownOption>))}
+          {item.frontmatter.customField.values.map((option) => (<DropdownOption key={option.size}>{option.size}</DropdownOption>))}
         </Dropdown>
 
         <BuyButton
@@ -103,7 +103,7 @@ class Item extends React.Component {
           data-item-description={item.frontmatter.description}
           data-item-image={item.frontmatter.image.childImageSharp.fluid.src}
           data-item-url={"https://gatsby-snipcart-starter.netlify.com" + item.fields.slug} //REPLACE WITH OWN URL
-          data-item-custom1-name={item.frontmatter.customField ? item.frontmatter.customField.name : null}
+          data-item-custom1-name={item.frontmatter.customField ? item.frontmatter.customField.size : null}
           data-item-custom1-options={this.createString(item.frontmatter.customField.values)}
           data-item-custom1-value={this.state.selected}>
           Add to basket
@@ -142,7 +142,7 @@ export const pageQuery = graphql`
           }
         }
         customField {
-          name
+          size
           values {
             name
             priceChange
