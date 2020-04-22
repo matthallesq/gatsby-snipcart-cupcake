@@ -2,7 +2,7 @@
 title: Coffee blend 1
 date: 2019-06-19
 id: 1
-price: 3
+price: 20
 image: ./image1.jpg
 description: A delicious coffee blend.
 customField: 
