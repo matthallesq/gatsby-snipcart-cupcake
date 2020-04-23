@@ -24,6 +24,13 @@ const Price = styled.p`
   font-weight: 700;
   background: ${props => props.theme.colors.primaryAccent};
 `
+
+const Size = styled.p`
+    margin: 20px 0;
+    padding: 10px;
+    font-weight: 700;
+    background: ${props => props.theme.colors.primaryAccent};
+`
 const Description = styled.p`
   margin: 20px 0;
   padding: 10px;
