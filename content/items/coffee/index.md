@@ -10,4 +10,4 @@ customField:
     values: [{name: '250g', priceChange: 0}, {name: '500g', priceChange: 15.00}, {name: '1kg', priceChange: 25.00}]
 ---
 
-This is a yummy cake with coffee buttercream icing.
+A delicious coffee blend.
