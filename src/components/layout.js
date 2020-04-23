@@ -11,6 +11,7 @@ const PageWrapper = styled.div`
   width: 100%;
   margin: 0 auto;
   width: 90%;
+  background-color: #1F3044;
 
 `
 
