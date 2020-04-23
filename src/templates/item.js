@@ -33,7 +33,6 @@ const Dropdown = styled.select`
   display: block;
   padding: 10px;
   margin: 10px 0;
-  background: ${props => props.theme.colors.secondaryAccent};
   font-weight: 700;
   border: none;
   outline: none;
@@ -73,7 +72,7 @@ class Item extends React.Component {
   updatePrice = (basePrice, values) => {
     const selectedOption = values.find(option => option.name === this.state.selected)
     return (basePrice + selectedOption.priceChange).toFixed(2)
-    
+
   }
 
   render() {
@@ -146,7 +145,7 @@ export const pageQuery = graphql`
           values {
             name
             priceChange
-          }   
+          }
         }
       }
     }

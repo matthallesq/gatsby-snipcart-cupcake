@@ -9,9 +9,7 @@ const HeaderMinorStyled = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: ${props => props.theme.colors.main};
     margin: 20px 0;
-
 `
 
 const ShopName = styled.h1`
