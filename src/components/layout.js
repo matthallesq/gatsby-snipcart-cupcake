@@ -68,8 +68,7 @@ class Layout extends React.Component {
           <PageWrapper>
             {header}
             <MainSection>{children}</MainSection>
-            <FooterStyled>2020 Bailey Coffee
-            </FooterStyled>
+            <FooterStyled>2020 Bailey Coffee</FooterStyled>
           </PageWrapper>
         </>
       </ThemeProvider>

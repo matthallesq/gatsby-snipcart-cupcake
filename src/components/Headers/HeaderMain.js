@@ -8,7 +8,7 @@ const HeaderMainStyled = styled.div`
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-    background: url("content/assets/gatsby-icon.png") no-repeat;
+    background-image: url("content/assets/gatsby-icon.png") no-repeat;
 
 `
 
