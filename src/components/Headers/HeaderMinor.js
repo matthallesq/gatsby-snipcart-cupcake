@@ -11,13 +11,13 @@ const HeaderMinorStyled = styled.div`
     align-items: center;
     background: ${props => props.theme.colors.main};
     margin: 20px 0;
-    border: 4px solid ${props => props.theme.colors.secondaryAccent};
 
 `
 
 const ShopName = styled.h1`
     padding: 20px;
-    font-family: montserrat, sans-serif;
+    background: url("content/assets/gatsby-icon.png") no-repeat;
+    font-family: Montserrat, sans-serif;
     font-size: 2em;
     font-weight: 700;
 `

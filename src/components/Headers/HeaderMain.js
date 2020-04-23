@@ -14,7 +14,7 @@ const ShopName = styled.h1`
     padding: 20px;
     background: url("content/assets/gatsby-icon.png") no-repeat;
     text-align: center;
-    font-family: montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 2.5em;
     font-weight: 900;
     @media (max-width: 600px) {
