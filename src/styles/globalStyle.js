@@ -66,7 +66,6 @@ export const GlobalStyle = createGlobalStyle`
       line-height: 1.5em;
     }
     button, select {
-      display: inline-block;
       border: none;
       padding: 0;
       margin: 0;
