@@ -9,7 +9,7 @@ import Layout from "../components/layout";
 
 const Heading = styled.h1`
   font-weight: 900;
-  font-: 1.5em;
+  font-: 2.5em;
   margin: 20px 0;
 `
 
