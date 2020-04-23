@@ -11,8 +11,8 @@ export const GlobalStyle = createGlobalStyle`
     dl, dt, dd, ol, ul, li,
     fieldset, form, label, legend,
     table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed, 
-    figure, figcaption, footer, header, hgroup, 
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
     menu, nav, output, ruby, section, summary,
     time, mark, audio, video {
        margin: 0;
@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
        vertical-align: baseline;
     }
     /* HTML5 display-role reset for older browsers */
-    article, aside, details, figcaption, figure, 
+    article, aside, details, figcaption, figure,
     footer, header, hgroup, menu, nav, section {
        display: block;
     }
@@ -65,7 +65,7 @@ export const GlobalStyle = createGlobalStyle`
     p, h1, h2, h3, h4 {
       line-height: 1.5em;
     }
-    button {
+    button, select {
       display: inline-block;
       border: none;
       padding: 0;
@@ -79,5 +79,5 @@ export const GlobalStyle = createGlobalStyle`
   strong {
      font-weight: bold;
   }
-  
+
 `
