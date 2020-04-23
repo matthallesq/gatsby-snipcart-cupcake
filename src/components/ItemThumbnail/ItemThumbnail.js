@@ -55,7 +55,7 @@ const ImgStyled = styled(Img)`
 
 const Price = styled.p`
     padding-bottom: 10px;
-    background-color:646C79;
+    background-color:#646C79;
 `
 
 const itemThumbnail = (props) => {
