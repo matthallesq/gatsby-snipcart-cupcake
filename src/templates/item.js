@@ -105,7 +105,7 @@ class Item extends React.Component {
           data-item-custom1-name={item.frontmatter.customField ? item.frontmatter.customField.name : null}
           data-item-custom1-options={this.createString(item.frontmatter.customField.values)}
           data-item-custom1-value={this.state.selected}>
-          Add to basket
+          Add to cart
         </BuyButton>
 
       </Layout>
