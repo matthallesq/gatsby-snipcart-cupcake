@@ -15,14 +15,14 @@ const ItemThumbnailStyled = styled.div`
 
     @media (max-width: 930px) {
         width: 250px;
-      } 
-   
+      }
+
       @media (max-width: 710px) {
         width: 100%;
       }
 `
 
-const Heading = styled.h3`
+const Heading = styled.h2`
     font-size: 1.3em;
     padding: 10px;
     font-weight: 900;
@@ -30,7 +30,7 @@ const Heading = styled.h3`
     width: 100%;
     min-height: 85px;
     margin: auto;
-    
+
 `
 
 const LinkStyled = styled(Link)`

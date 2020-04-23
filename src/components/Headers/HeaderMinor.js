@@ -7,7 +7,7 @@ import { ShoppingCart } from 'styled-icons/material/ShoppingCart';
 const HeaderMinorStyled = styled.div`
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 20px 0;
 `
