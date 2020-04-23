@@ -17,7 +17,7 @@ const HeaderMinorStyled = styled.div`
 
 const ShopName = styled.h1`
     padding: 20px;
-    font-family: Heebo, sans-serif;
+    font-family: montserrat, sans-serif;
     font-size: 2em;
     font-weight: 700;
 `
@@ -70,7 +70,7 @@ class HeaderMinor extends Component {
         window.Snipcart.unsubscribe('cart.closed');
         window.Snipcart.unsubscribe('cart.ready');
     }
-    
+
 
     render() {
         return (
@@ -82,7 +82,7 @@ class HeaderMinor extends Component {
                 </ShopName>
                 <CartSummary className="snipcart-summary">
                     <a href="#" className="snipcart-checkout"> <ShoppingCart size='40px' /></a>
-                    <p>{this.state.items} yummy items</p>
+                    <p>{this.state.items} items</p>
                 </CartSummary>
 
             </HeaderMinorStyled>
