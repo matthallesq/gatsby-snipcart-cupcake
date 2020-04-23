@@ -8,6 +8,7 @@ const HeaderMainStyled = styled.div`
     align-items: center;
     justify-content: center;
     padding-top: 20px;
+    background-color: ##1F3044;
 `
 
 const ShopName = styled.h1`
