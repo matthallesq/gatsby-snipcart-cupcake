@@ -23,6 +23,7 @@ const FooterStyled = styled.footer`
   width: 100%;
   padding: 20px;
   text-align: right;
+  color: #FB9039;
 
   @media (max-width: 600px) {
     text-align: center;
@@ -67,8 +68,7 @@ class Layout extends React.Component {
           <PageWrapper>
             {header}
             <MainSection>{children}</MainSection>
-            <FooterStyled>
-              <secondaryAccent>2020 Bailey Coffee </secondaryAccent>
+            <FooterStyled>2020 Bailey Coffee
             </FooterStyled>
           </PageWrapper>
         </>

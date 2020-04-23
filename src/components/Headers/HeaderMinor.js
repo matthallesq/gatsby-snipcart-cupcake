@@ -17,7 +17,7 @@ const ShopName = styled.h1`
     padding: 20px;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: 700;
 `
 
