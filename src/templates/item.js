@@ -23,6 +23,7 @@ const Price = styled.p`
   padding: 10px;
   font-weight: 700;
 `
+
 const Size = styled.p`
     margin: 20px 0;
     padding: 10px;
@@ -90,8 +91,8 @@ class Item extends React.Component {
         <ImgStyled fluid={item.frontmatter.image.childImageSharp.fluid} />
 
         <Price>${this.updatePrice(item.frontmatter.price, item.frontmatter.customField.values)}</Price>
-        <Size>{item.frontmatter.customField.name} {item.frontmatter.customField.values}</Size>
-        <Description>{item.frontmatter.description} </Description>
+        <Size>{item.frontmatter.customField.name}</Size>
+        <Description>{item.frontmatter.description}</Description>
         <Dropdown
           id={item.frontmatter.customField.name}
           onChange={(e) => this.setSelected(e.target.value)}
