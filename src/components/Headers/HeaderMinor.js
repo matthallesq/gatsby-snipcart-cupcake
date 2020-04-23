@@ -11,7 +11,6 @@ const HeaderMinorStyled = styled.div`
     align-items: center;
     margin: 20px 0;
     background: url("content/assets/gatsby-icon.png") no-repeat;
-
 `
 
 const ShopName = styled.h1`
