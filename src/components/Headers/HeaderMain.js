@@ -10,10 +10,11 @@ const HeaderMainStyled = styled.div`
     padding-top: 20px;
 `
 
-const ShopName = styled.h1`
+const ShopName = styled.image`
     background: ${props => props.theme.colors.main};
     padding: 20px;
-    width: 50%;
+    width: 100%;
+    background: url("images/card-back.jpg") no-repeat;
     text-align: center;
     font-family: Heebo, sans-serif;
     border: 4px solid ${props => props.theme.colors.secondaryAccent};
