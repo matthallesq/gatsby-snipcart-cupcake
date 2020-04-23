@@ -8,8 +8,6 @@ const HeaderMainStyled = styled.div`
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-    background-image: url("content/assets/bailey-coffee-logo.png") no-repeat;
-
 `
 
 const ShopName = styled.h1`
