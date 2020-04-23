@@ -23,7 +23,7 @@ const FooterStyled = styled.footer`
   width: 100%;
   padding: 20px;
   text-align: right;
-  background-color: #1F3044;
+  background-color: #FB9039;
 
   @media (max-width: 600px) {
     text-align: center;
