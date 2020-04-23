@@ -8,12 +8,12 @@ const HeaderMainStyled = styled.div`
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-    background: ${props => props.theme.colors.primaryAccent};
+    background: url("content/assets/gatsby-icon.png") no-repeat;
+
 `
 
 const ShopName = styled.h1`
     padding: 20px;
-    background: url("content/assets/gatsby-icon.png") no-repeat;
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 2.5em;

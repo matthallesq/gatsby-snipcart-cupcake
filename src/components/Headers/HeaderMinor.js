@@ -7,14 +7,16 @@ import { ShoppingCart } from 'styled-icons/material/ShoppingCart';
 const HeaderMinorStyled = styled.div`
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 20px 0;
+    background: url("content/assets/gatsby-icon.png") no-repeat;
+
 `
 
 const ShopName = styled.h1`
     padding: 20px;
-    background: url("content/assets/gatsby-icon.png") no-repeat;
+    text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 2em;
     font-weight: 700;
