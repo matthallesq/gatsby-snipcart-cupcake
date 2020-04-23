@@ -1,13 +1,13 @@
 ---
-title: Double chocolate buttercream
+title: Coffee blend 3
 date: 2019-06-19
 id: 2
-price: 3
+price: 20
 image: ./image1.jpg
-description: A delicious chocolatey treat.
+description: A delicious coffee blend.
 customField: 
-    name: Pack Size
-    values: [{name: 'One Cake', priceChange: 0}, {name: 'Pack of 6', priceChange: 12.00}, {name: 'Pack of 12', priceChange: 25.00}]
+    name: Size
+    values: [{name: '250g', priceChange: 0}, {name: '500g', priceChange: 15.00}, {name: '1kg', priceChange: 25.00}]
 ---
 
-This is a yummy cake.
+A delicious coffee blend.
