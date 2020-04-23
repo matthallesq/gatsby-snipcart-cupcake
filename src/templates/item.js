@@ -14,7 +14,7 @@ const Heading = styled.h1`
 `
 
 const ImgStyled = styled(Img)`
-  width: 100%;
+  width: 50%;
   height: 400px;
 `
 
