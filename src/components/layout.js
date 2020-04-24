@@ -12,6 +12,7 @@ const PageWrapper = styled.div`
   margin: 0 auto;
   width: 90%;
   background-color: #1F3044;
+  background-image: url("content/assets/bailey-background.jpg");
 
 `
 
