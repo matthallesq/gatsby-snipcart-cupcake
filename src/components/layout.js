@@ -15,13 +15,13 @@ const PageWrapper = styled.div`
 `
 
 const MainSection = styled.main`
-  margin: 20px 0;
+  margin: 10px 0;
   width: 100%;
 `
 
 const FooterStyled = styled.footer`
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   text-align: right;
   background-color: #FB9039;
   color:#ffffff;
