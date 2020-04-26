@@ -14,7 +14,7 @@ const HeaderMainStyled = styled.div`
 const ShopName = styled.h1`
     padding: 20px;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat;
     font-size: 2.5em;
     font-weight: 900;
     @media (max-width: 600px) {

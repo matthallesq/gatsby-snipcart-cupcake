@@ -7,8 +7,6 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import HeaderMain from '../components/Headers/HeaderMain';
-import HeaderMinor from '../components/Headers/HeaderMinor';
 
 const ThumbnailsWrapper = styled.div`
     width: 100%;
