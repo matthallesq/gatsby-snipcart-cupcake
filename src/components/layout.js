@@ -11,12 +11,11 @@ const PageWrapper = styled.div`
   width: 100%;
   margin: 0 auto;
   width: 90%;
-  background-image: url("../content/assets/bailey-background.jpg");
 
 `
 
 const MainSection = styled.main`
-  margin: 30px 0;
+  margin: 20px 0;
   width: 100%;
 `
 
@@ -25,6 +24,7 @@ const FooterStyled = styled.footer`
   padding: 20px;
   text-align: right;
   background-color: #FB9039;
+  color:#ffffff;
 
   @media (max-width: 600px) {
     text-align: center;
