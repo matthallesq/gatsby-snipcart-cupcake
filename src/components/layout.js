@@ -11,7 +11,7 @@ const PageWrapper = styled.div`
   width: 100%;
   margin: 0 auto;
   width: 90%;
-  background-image: url("content/assets/bailey-background.jpg");
+  background-image: url("../content/assets/bailey-background.jpg");
 
 `
 
