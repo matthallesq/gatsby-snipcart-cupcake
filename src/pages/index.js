@@ -7,6 +7,8 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import HeaderMain from './Headers/HeaderMain';
+import HeaderMinor from './Headers/HeaderMinor';
 
 const ThumbnailsWrapper = styled.div`
     width: 100%;
@@ -40,7 +42,7 @@ class BlogIndex extends React.Component {
           )
         })}
       </ThumbnailsWrapper>
-        
+
 
       </Layout>
     )
