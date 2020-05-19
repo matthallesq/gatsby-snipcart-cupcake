@@ -11,7 +11,6 @@ const PageWrapper = styled.div`
   width: 100%;
   margin: 0 auto;
   width: 100%;
-  background-image:url ("../content/assets/bailey-background.jpg");
 
 `
 
@@ -57,6 +56,8 @@ class Layout extends React.Component {
       header = (
         <HeaderMinor shopName={siteName}>
         </HeaderMinor>
+        <img src="../content/assets/bailey-background.jpg">
+
       )
     } else {
       header = (
