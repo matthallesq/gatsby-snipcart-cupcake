@@ -9,13 +9,12 @@ import Layout from "../components/layout";
 
 const Heading = styled.h1`
   margin: 20px 0;
-  font-weight: 900;
-  font-: 1.5em;
+  font-size: 2.5em;
   margin: 20px 0;
 `
 
 const ImgStyled = styled(Img)`
-width: 350px;
+width: 400px;
 `
 
 const Price = styled.span`
