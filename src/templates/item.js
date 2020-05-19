@@ -80,9 +80,10 @@ class Item extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <Heading>{item.frontmatter.title}</Heading>
+
 
         <ImgStyled fluid={item.frontmatter.image.childImageSharp.fluid} />
+        <Heading>{item.frontmatter.title}</Heading>
         <Dropdown
           id={item.frontmatter.customField.name}
           onChange={(e) => this.setSelected(e.target.value)}
