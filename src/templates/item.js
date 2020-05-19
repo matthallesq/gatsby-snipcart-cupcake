@@ -16,7 +16,7 @@ const Heading = styled.h1`
 
 const ImgStyled = styled(Img)`
   width: 50%;
-  height: 400px;
+  height: 300px;
 `
 
 const Price = styled.span`
