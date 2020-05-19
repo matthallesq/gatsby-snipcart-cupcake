@@ -4,6 +4,9 @@ import { Link } from "gatsby";
 
 import { ShoppingCart } from 'styled-icons/material/ShoppingCart';
 
+import logo from 'bailey-coffee-logo.png' // relative path to image
+
+
 const HeaderMinorStyled = styled.div`
     width: 100%;
     display: flex;
@@ -38,6 +41,13 @@ const CartSummary = styled.div`
     font-weight: bold;
 `
 
+class Nav extends Component {
+    render() {
+        return (
+            <img src={logo} alt={"logo"}/>
+        )
+    }
+}
 class HeaderMinor extends Component {
     state = {
         items: 0
