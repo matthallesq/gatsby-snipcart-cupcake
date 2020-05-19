@@ -13,7 +13,7 @@ const HeaderMainStyled = styled.div`
 
 const ShopName = styled.span`
     padding: 20px;
-    background: url ("content/assets/bailey-coffee-logo.png");
+    background-image: url ("content/assets/bailey-coffee-logo.png");
     text-align: center;
     font-family: Montserrat;
     font-size: 2.5em;
