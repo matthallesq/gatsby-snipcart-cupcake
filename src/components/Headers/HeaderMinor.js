@@ -19,6 +19,8 @@ const ShopName = styled.span`
     text-align: center;
     font-size: 1em;
     font-weight: 700;
+    background-image:url ("content/assets/bailey-coffee-logo.png");
+
 `
 
 const LinkStyled = styled(Link)`
