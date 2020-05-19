@@ -52,8 +52,8 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <HeaderMain shopName={siteName}>
-        </HeaderMain>
+        <HeaderMinor shopName={siteName}>
+        </HeaderMinor>
       )
     } else {
       header = (
