@@ -55,9 +55,8 @@ class Layout extends React.Component {
     if (location.pathname === rootPath) {
       header = (
         <HeaderMinor shopName={siteName}>
-        </HeaderMinor>
         <img src="../content/assets/bailey-background.jpg">
-
+        </HeaderMinor>
       )
     } else {
       header = (
