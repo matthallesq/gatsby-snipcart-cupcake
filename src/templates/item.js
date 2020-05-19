@@ -8,8 +8,9 @@ import styled from "styled-components"
 import Layout from "../components/layout";
 
 const Heading = styled.h1`
+  margin: 20px 0;
   font-weight: 900;
-  font-: 2.5em;
+  font-: 1.5em;
   margin: 20px 0;
 `
 
@@ -84,13 +85,14 @@ class Item extends React.Component {
 
         <ImgStyled fluid={item.frontmatter.image.childImageSharp.fluid} />
         <Heading>{item.frontmatter.title}</Heading>
-        <Price>${this.updatePrice(item.frontmatter.price, item.frontmatter.customField.values)}</Price>
         <Dropdown
           id={item.frontmatter.customField.name}
           onChange={(e) => this.setSelected(e.target.value)}
           value={this.state.selected}> Size
           {item.frontmatter.customField.values.map((option) => (<DropdownOption key={option.name}>{option.name}</DropdownOption>))}
         </Dropdown>
+        <Price>${this.updatePrice(item.frontmatter.price, item.frontmatter.customField.values)}</Price>
+
 
 
         <Description>{item.frontmatter.description}</Description>
