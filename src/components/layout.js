@@ -47,7 +47,7 @@ class Layout extends React.Component {
   render() {
     const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    const siteName = "Bailey Coffee"
+    const siteName = ""
     let header
 
     if (location.pathname === rootPath) {
