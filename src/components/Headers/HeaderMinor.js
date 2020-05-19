@@ -21,7 +21,12 @@ const ShopName = styled.span`
     font-weight: 700;
     background-image:url ("bailey-coffee-logo.png");
 
+
 `
+
+const logo = require('./bailey-coffee-logo.png);
+
+
 
 const LinkStyled = styled(Link)`
     box-shadow: none;
@@ -79,7 +84,7 @@ class HeaderMinor extends Component {
                 <ShopName>
                     <LinkStyled to='/'>
                         {this.props.shopName}
-                        <img src={"../content/assets/bailey-coffee-logo.png"} />
+                        <img src={logo} />
                     </LinkStyled>
                 </ShopName>
                 <CartSummary className="snipcart-summary">
