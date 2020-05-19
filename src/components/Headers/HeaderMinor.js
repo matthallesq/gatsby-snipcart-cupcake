@@ -79,7 +79,7 @@ class HeaderMinor extends Component {
                 <ShopName>
                     <LinkStyled to='/'>
                         {this.props.shopName}
-                        <img src={"./bailey-coffee-logo.png"} />
+                        <img src={"../content/assets/bailey-coffee-logo.png"} />
                     </LinkStyled>
                 </ShopName>
                 <CartSummary className="snipcart-summary">
