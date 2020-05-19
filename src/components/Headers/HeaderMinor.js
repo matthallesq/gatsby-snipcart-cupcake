@@ -24,7 +24,7 @@ const ShopName = styled.span`
 
 `
 
-const logo = require('./bailey-coffee-logo.png);
+const logo = require('./bailey-coffee-logo.png');
 
 
 
