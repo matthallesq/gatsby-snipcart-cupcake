@@ -23,9 +23,8 @@ const ItemThumbnailStyled = styled.div`
 `
 
 const Heading = styled.h2`
-    font-size: 1.3em;
+    font-size: 2.5em;
     padding: 10px;
-    font-weight: 900;
     text-align: center;
     width: 100%;
     min-height: 85px;
