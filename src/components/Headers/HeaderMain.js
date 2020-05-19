@@ -8,12 +8,12 @@ const HeaderMainStyled = styled.div`
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-    background-color: #1F3044;
+    background-color: #ffffff;
 `
 
 const ShopName = styled.span`
     padding: 20px;
-    background-image: url ("content/assets/bailey-coffee-logo.png");
+    background-image: url ("../content/assets/bailey-coffee-logo.png");
     text-align: center;
     font-family: Montserrat;
     font-size: 2.5em;
