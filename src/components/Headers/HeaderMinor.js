@@ -12,10 +12,10 @@ const HeaderMinorStyled = styled.div`
     margin: 20px 0;
 `
 
-const ShopName = styled.h1`
+const ShopName = styled.span`
     padding: 20px;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    background-image:url ("../content/assets/bailey-coffee-logo.png");
     font-size: 1em;
     font-weight: 700;
 `
