@@ -10,7 +10,7 @@ const HeaderMinorStyled = styled.div`
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
-    background-image:url ("../content/assets/bailey-coffee-logo.png");
+    background-image:url ("bailey-coffee-logo.png");
 
 `
 
@@ -19,7 +19,7 @@ const ShopName = styled.span`
     text-align: center;
     font-size: 1em;
     font-weight: 700;
-    background-image:url ("content/assets/bailey-coffee-logo.png");
+    background-image:url ("bailey-coffee-logo.png");
 
 `
 

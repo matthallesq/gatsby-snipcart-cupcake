@@ -1,5 +1,5 @@
 ---
-title: Suzy's Blend
+title: Suzy's blend
 date: 2019-06-19
 id: 1
 price: 20
