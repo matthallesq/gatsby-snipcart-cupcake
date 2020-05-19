@@ -10,7 +10,7 @@ const ItemThumbnailStyled = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
     background: ${props => props.theme.colors.primaryAccent};
 
     @media (max-width: 930px) {
@@ -55,7 +55,6 @@ const ImgStyled = styled(Img)`
 
 const Price = styled.p`
     padding-bottom: 10px;
-    background-color:#646C79;
 `
 
 const itemThumbnail = (props) => {
