@@ -4,7 +4,7 @@
 export const theme = {
     colors: {
         main: '#1F3044', //used in header
-        primaryAccent: '#FB9039', //used for thumbnails on homepage and as price background
+        primaryAccent: '#ffffff', //used for thumbnails on homepage and as price background
         secondaryAccent: '#646C79', //used for header border and item buttons
     }
 };
