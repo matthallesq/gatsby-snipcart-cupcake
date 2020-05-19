@@ -10,7 +10,7 @@ import HeaderMinor from './Headers/HeaderMinor';
 const PageWrapper = styled.div`
   width: 100%;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 
 `
 
@@ -21,7 +21,6 @@ const MainSection = styled.main`
 
 const FooterStyled = styled.footer`
   width: 100%;
-  padding: 10px;
   text-align: right;
   background-color: #FB9039;
   color:#ffffff;
