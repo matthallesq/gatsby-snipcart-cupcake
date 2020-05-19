@@ -11,6 +11,8 @@ const Heading = styled.h1`
   font-weight: 900;
   font-: 2.5em;
   margin: 20px 0;
+  background-image: url ("../content/assets/bailey-coffee-logo.png");
+
 `
 
 const ImgStyled = styled(Img)`
