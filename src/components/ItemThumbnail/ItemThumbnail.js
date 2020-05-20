@@ -22,7 +22,7 @@ const ItemThumbnailStyled = styled.div`
       }
 `
 
-const Heading = styled.h2`
+const Heading2 = styled.h2`
     font-size: 2.5em;
     padding: 10px;
     text-align: center;
@@ -61,7 +61,7 @@ const itemThumbnail = (props) => {
         <ItemThumbnailStyled>
             <LinkStyled to={props.link}>
                 <ImgStyled fluid={props.image} />
-                <Heading>{props.heading}</Heading>
+                <Heading2>{props.heading}</Heading2>
             </LinkStyled>
             <Price> From ${props.price.toFixed(2)}</Price>
         </ItemThumbnailStyled >
