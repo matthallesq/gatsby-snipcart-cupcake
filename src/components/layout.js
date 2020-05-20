@@ -9,7 +9,7 @@ import HeaderMinor from './Headers/HeaderMinor';
 
 const PageWrapper = styled.div`
   width: 100%;
-  margin: 50px 0 auto;
+  margin: 20px 0 auto;
   width: 100%;
 
 `
@@ -17,7 +17,6 @@ const PageWrapper = styled.div`
 const MainSection = styled.div`
   margin: 50px 0;
   width: 100%;
-  margin: 20px 0;
 
 `
 
