@@ -49,7 +49,7 @@ class BlogIndex extends React.Component {
         <SEO title="All items" />
 
         <Wrapper>
-        <Heading1>Products</Heading1>
+        <Heading1>About</Heading1>
         <ContentWrapper>
         Bailey coffee is renowned for our pursuit of knowledge about traditional artisan espresso and associated machinery used for its preparation, handmade of shiny metal. Established in North Melbourne in 2006 after acquiring the relevant experience, skills and tools to produce quality artisan coffee.
         </ContentWrapper>
@@ -60,10 +60,13 @@ class BlogIndex extends React.Component {
         We are traditionalists who love to roast and toast. We enjoy our role in the preparation of traditional artisan espresso, from sourcing and roasting to the final cup. Café humane, handled with utmost care at all times.
         </ContentWrapper>
         </Wrapper>
+
       <ThumbnailsWrapper>
+            <Heading1>Products</Heading1>
         {items.map(({ node }) => {
           const { title, image, price } = node.frontmatter
           return (
+
             <ItemThumbnail
               key={node.fields.slug}
               link={node.fields.slug}
