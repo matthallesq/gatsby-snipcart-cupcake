@@ -31,14 +31,6 @@ const Wrapper = styled.section`
   background: papayawhip;
 `;
 
-// Use Title and Wrapper like any other React component – except they're styled!
-render(
-  <Wrapper>
-    <Title>
-      Hello World!
-    </Title>
-  </Wrapper>
-);
 
 class BlogIndex extends React.Component {
   render() {
@@ -63,7 +55,11 @@ class BlogIndex extends React.Component {
           )
         })}
       </ThumbnailsWrapper>
-
+      <Wrapper>
+        <Title>
+          Hello World!
+        </Title>
+      </Wrapper>
 
       </Layout>
     )
