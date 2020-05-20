@@ -10,10 +10,6 @@ import SEO from "../components/seo"
 
 const ContentWrapper = styled.div`
     width: auto;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
     padding: 20px;
     color:#ffffff;
 `
