@@ -14,10 +14,9 @@ const PageWrapper = styled.div`
 
 `
 
-const MainSection = styled.main`
+const MainSection = styled.div`
   margin: 50px 0;
-  width: 90%;
-
+  width: 100%;
 
 `
 
