@@ -8,6 +8,11 @@ import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+
+const Wrapper = styled.section`
+  background: #1F3044;
+`
+
 const ContentWrapper = styled.div`
     width: auto;
     padding: 20px;
@@ -22,10 +27,7 @@ const ThumbnailsWrapper = styled.div`
     padding: 20px;
 `
 
-// Create a Wrapper component that'll render a <section> tag with some styles
-const Wrapper = styled.section`
-  background: #1F3044;
-`;
+
 
 
 class BlogIndex extends React.Component {
