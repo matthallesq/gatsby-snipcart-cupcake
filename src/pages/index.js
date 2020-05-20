@@ -56,9 +56,9 @@ class BlogIndex extends React.Component {
         })}
       </ThumbnailsWrapper>
       <Wrapper>
-        <Title>
+
           Hello World!
-        </Title>
+    
       </Wrapper>
 
       </Layout>
