@@ -51,6 +51,7 @@ const ThumbnailsWrapper = styled.div`
     margin-left:20px;
 `
 
+const Background = require('./bailey-coffee-background.jpg');
 
 
 
@@ -63,7 +64,7 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
-
+        <img src={Background} />
         <Wrapper>
         <Heading1White>Artisian Coffee Roaster & Wholesaler</Heading1White>
         <ContentWrapper>
