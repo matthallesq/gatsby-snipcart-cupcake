@@ -1,6 +1,7 @@
 // This is the homepage.
 
 import React from "react"
+import Image from 'gatsby-image'
 import { graphql } from "gatsby"
 import styled from "styled-components"
 
