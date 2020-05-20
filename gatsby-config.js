@@ -21,6 +21,10 @@ module.exports = {
       },
     },
 
+
+    `gatsby-dynamical-navigation`,
+
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
