@@ -8,7 +8,7 @@ import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const ContentWrapper = styled.p`
+const ContentWrapper = styled.div`
     width: auto;
     display: flex;
     align-items: flex-start;
