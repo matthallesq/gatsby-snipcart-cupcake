@@ -58,7 +58,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-snipcart',
+      resolve: 'gatsby-plugin-snipcartv3',
       options: {
         //replace with own Snipcart API key
         apiKey: 'MTAwZTI2NDctMTZkYy00MWZkLTg5NWYtM2RhMzgyNTUyMzZiNjM3MjIwNzA4Nzc4OTE5NjIz',
