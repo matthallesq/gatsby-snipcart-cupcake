@@ -48,6 +48,7 @@ const ThumbnailsWrapper = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+    margin-left:20px;
 `
 
 
