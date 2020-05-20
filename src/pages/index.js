@@ -1,7 +1,6 @@
 // This is the homepage.
 
 import React from "react"
-import Image from 'gatsby-image'
 import { graphql } from "gatsby"
 import styled from "styled-components"
 
@@ -12,13 +11,11 @@ import SEO from "../components/seo"
 
 const Wrapper = styled.section`
   background: #1F3044;
-  background-image: url("./bailey-background.jpg");
-
 `
 
 const ContentWrapper = styled.div`
     width: auto;
-    padding: 20px;
+    padding: 50px;
     color:#ffffff;
 `
 const ThumbnailsWrapper = styled.div`
