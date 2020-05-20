@@ -11,6 +11,8 @@ const ItemThumbnailStyled = styled.div`
     align-items: center;
     justify-content: center;
     margin: 10px;
+    padding: 50px;
+
     background: ${props => props.theme.colors.primaryAccent};
 
     @media (max-width: 930px) {
