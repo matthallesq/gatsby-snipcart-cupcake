@@ -18,7 +18,8 @@ const Heading1 = styled.h1`
 `
 
 const Wrapper = styled.section`
-  background: #1F3044;
+  background:#646C79;
+  border: #1F3044;
 `
 
 const ContentWrapper = styled.div`
@@ -49,7 +50,7 @@ class BlogIndex extends React.Component {
         <SEO title="All items" />
 
         <Wrapper>
-        <Heading1>About</Heading1>
+        <Heading1>ARTISAN COFFEE ROASTER & WHOLESALER</Heading1>
         <ContentWrapper>
         Bailey coffee is renowned for our pursuit of knowledge about traditional artisan espresso and associated machinery used for its preparation, handmade of shiny metal. Established in North Melbourne in 2006 after acquiring the relevant experience, skills and tools to produce quality artisan coffee.
         </ContentWrapper>
@@ -62,7 +63,7 @@ class BlogIndex extends React.Component {
         </Wrapper>
 
       <ThumbnailsWrapper>
-            <Heading1>Products</Heading1>
+            <Heading1>PRODUCTS</Heading1>
         {items.map(({ node }) => {
           const { title, image, price } = node.frontmatter
           return (
