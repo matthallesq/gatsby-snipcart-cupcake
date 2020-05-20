@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 
 const Wrapper = styled.section`
   background: #1F3044;
-  background-image: url("./content/assets/bailey-background.jpg");
+  background-image: url("./bailey-background.jpg");
 
 `
 
