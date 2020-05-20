@@ -9,7 +9,7 @@ const HeaderMinorStyled = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0 20px 0 ;
+    margin: 20px 0;
 
 
 `
@@ -19,6 +19,7 @@ const ShopName = styled.span`
     text-align: center;
     font-size: 1em;
     font-weight: 700;
+    margin: 20px 0;
 
 
 `
