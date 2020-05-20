@@ -17,6 +17,7 @@ const ContentWrapper = styled.div`
     width: auto;
     padding: 20px;
     color:#ffffff;
+    background-image: url("../content/assets/bailey-backgroung.jpg");
 `
 const ThumbnailsWrapper = styled.div`
     width: 100%;
