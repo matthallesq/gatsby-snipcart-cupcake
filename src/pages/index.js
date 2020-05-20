@@ -28,7 +28,7 @@ const ThumbnailsWrapper = styled.div`
 // Create a Wrapper component that'll render a <section> tag with some styles
 const Wrapper = styled.section`
   padding: 4em;
-  background: papayawhip;
+  background: #1F3044;
 `;
 
 
