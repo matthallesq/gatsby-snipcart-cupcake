@@ -36,6 +36,9 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+
+    `gatsby-dynamical-navigation`,
+
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -52,7 +55,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `thistle`,
-        display: `standalone`,
+        display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
     },
