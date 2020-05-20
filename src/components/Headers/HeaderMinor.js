@@ -19,8 +19,6 @@ const ShopName = styled.span`
     text-align: center;
     font-size: 1em;
     font-weight: 700;
-    margin: 20px 0;
-
 
 `
 
@@ -39,7 +37,7 @@ const CartSummary = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 10px;
+    padding: 20px;
     font-weight: bold;
 `
 
