@@ -25,6 +25,21 @@ const ThumbnailsWrapper = styled.div`
     padding: 20px;
 `
 
+// Create a Wrapper component that'll render a <section> tag with some styles
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
+
+// Use Title and Wrapper like any other React component – except they're styled!
+render(
+  <Wrapper>
+    <Title>
+      Hello World!
+    </Title>
+  </Wrapper>
+);
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
