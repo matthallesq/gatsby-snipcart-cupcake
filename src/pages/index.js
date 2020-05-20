@@ -8,6 +8,16 @@ import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const Heading1White = styled.h1`
+    font-size: 3.5em;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    min-height: 85px;
+    margin: auto;
+    color:#ffffff;
+
+`
 const Heading1 = styled.h1`
     font-size: 3.5em;
     padding: 10px;
@@ -53,7 +63,7 @@ class BlogIndex extends React.Component {
         <SEO title="All items" />
 
         <Wrapper>
-        <Heading1>ARTISAN COFFEE ROASTER & WHOLESALER</Heading1>
+        <Heading1White>Artisian Coffee Roaster & Wholesaler</Heading1White>
         <ContentWrapper>
         Bailey coffee is renowned for our pursuit of knowledge about traditional artisan espresso and associated machinery used for its preparation, handmade of shiny metal. Established in North Melbourne in 2006 after acquiring the relevant experience, skills and tools to produce quality artisan coffee.
         </ContentWrapper>
@@ -66,7 +76,7 @@ class BlogIndex extends React.Component {
         </Wrapper>
 
       <ThumbnailsWrapper>
-            <Heading1>PRODUCTS</Heading1>
+            <Heading1>Products</Heading1>
         {items.map(({ node }) => {
           const { title, image, price } = node.frontmatter
           return (
