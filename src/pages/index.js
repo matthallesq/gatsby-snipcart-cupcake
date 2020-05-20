@@ -8,6 +8,14 @@ import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const ContentWrapper = styled.div`
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+`
 const ThumbnailsWrapper = styled.div`
     width: 100%;
     display: flex;
