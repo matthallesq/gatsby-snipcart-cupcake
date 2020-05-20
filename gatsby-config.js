@@ -36,9 +36,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-
-    `gatsby-dynamical-navigation`,
-
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
