@@ -11,7 +11,6 @@ const HeaderMinorStyled = styled.div`
     align-items: center;
     margin: 20px 0;
 
-
 `
 
 const ShopName = styled.span`
@@ -19,6 +18,7 @@ const ShopName = styled.span`
     text-align: center;
     font-size: 1em;
     font-weight: 700;
+
 
 `
 
@@ -37,7 +37,7 @@ const CartSummary = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 20px;
+    padding: 10px;
     font-weight: bold;
 `
 
