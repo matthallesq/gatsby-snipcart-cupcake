@@ -27,6 +27,8 @@ const Wrapper = styled.section`
 const ContentWrapper = styled.div`
     width: auto;
     color:#ffffff;
+    font-size: 1.5em;
+
 `
 const ThumbnailsWrapper = styled.div`
     width: 100%;
