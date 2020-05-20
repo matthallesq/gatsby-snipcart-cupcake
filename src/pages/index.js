@@ -15,6 +15,7 @@ const ContentWrapper = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+    color:#ffffff;
 `
 const ThumbnailsWrapper = styled.div`
     width: 100%;
