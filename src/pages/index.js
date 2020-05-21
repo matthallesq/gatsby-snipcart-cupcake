@@ -6,6 +6,8 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import img from '.contnent/assets/bailey-coffee-background.jpg';
+
 
 const Heading1White = styled.h1`
     font-size: 3.5em;
@@ -29,7 +31,7 @@ const Heading1 = styled.h1`
 const Wrapper = styled.section`
   background:#646C79;
   padding: 20px 10px 10px 20px;
-
+  background-image: url(${img});
 `
 
 const ContentWrapper = styled.div`
@@ -48,6 +50,7 @@ const ThumbnailsWrapper = styled.div`
     padding: 10px 20px 10px 20px;
     margin-left:20px;
 `
+
 
 
 class BlogIndex extends React.Component {
