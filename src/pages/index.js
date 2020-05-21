@@ -106,7 +106,7 @@ class BlogIndex extends React.Component {
           )
         })}
       </ThumbnailsWrapper>
-
+ 
 
       </Layout>
     )
