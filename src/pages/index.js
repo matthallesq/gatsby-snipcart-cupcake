@@ -51,9 +51,18 @@ const ThumbnailsWrapper = styled.div`
     margin-left:20px;
 `
 
-const Background = require('./bailey-coffee-background.jpg');
 
-
+const query = graphql`
+  query {
+    file(relativePath: { eq: "content/assets/bailey-coffee-background.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 class BlogIndex extends React.Component {
   render() {
@@ -64,7 +73,12 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
-        <img src={Background} />
+        import Img from "gatsby-image"
+export ({ data }) => (
+  <div>
+    <Img fluid={data.file.childImageSharp.fluid} alt="Gatsby logo" />
+  </div>
+)
         <Wrapper>
         <Heading1White>Artisian Coffee Roaster & Wholesaler</Heading1White>
         <ContentWrapper>
