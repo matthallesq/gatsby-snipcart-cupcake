@@ -29,7 +29,7 @@ const Heading1 = styled.h1`
 const Wrapper = styled.section`
   background:#646C79;
   border: #1F3044;
-  padding: 50px;
+  padding: 20px 0px 20px 0px;
 
 `
 
