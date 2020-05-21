@@ -28,10 +28,11 @@ const Heading1 = styled.h1`
     margin: auto;
 `
 
-const Wrapper = styled.section`
+const Wrapper = styled.div`
   background:#646C79;
   padding: 20px 10px 10px 20px;
-  background-image: url(${img});
+  background-image: url(${props => props.img});
+`;
 `
 
 const ContentWrapper = styled.div`
