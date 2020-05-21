@@ -6,6 +6,8 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Background from '../content/assets/bailey-cofee-background.jpg';
+
 
 const Heading1White = styled.h1`
     font-size: 3.5em;
@@ -49,16 +51,20 @@ const ThumbnailsWrapper = styled.div`
     margin-left:20px;
 `
 
-export default function Home() {
-  return (
-    <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
-      <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
-      <p>
-        What do I like to do? Lots of course but definitely enjoy building
-        websites.
-      </p>
-    </div>
-  )
+
+var sectionStyle = {
+  width: "100%",
+  height: "400px",
+  backgroundImage: "url(" + { Background } + ")"
+};
+
+class Section extends Component {
+  render() {
+    return (
+      <section style={ sectionStyle }>
+      </section>
+    );
+  }
 }
 
 class BlogIndex extends React.Component {
