@@ -50,13 +50,13 @@ const ThumbnailsWrapper = styled.div`
     padding: 20px;
     margin-left:20px;
 `
-const Img = styled.div`
+const Img = styled.img`
 `
 
 
 const query = graphql`
   query {
-    file(relativePath: { eq: "content/assets/bailey-coffee-background.jpg" }) {
+    file(relativePath: { eq: "./content/assets/bailey-coffee-background.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
