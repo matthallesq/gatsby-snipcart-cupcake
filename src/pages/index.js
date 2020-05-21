@@ -48,22 +48,7 @@ const ThumbnailsWrapper = styled.div`
     padding: 10px 20px 10px 20px;
     margin-left:20px;
 `
-function App() {
-  return (
-    <div>
 
-      <div
-      style={{
-         backgroundImage: `url("https://www.nicesnippets.com/image/imgpsh_fullsize.png")`,backgroundRepeat: 'no-repeat',width:'250px',height:'250px',color:'white'
-      }}>
-        Nice Snippets
-      </div>
-
-    </div>
-  );
-}
-
-export App;
 
 class BlogIndex extends React.Component {
   render() {
@@ -74,6 +59,14 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
+        <div>
+
+          <div style={{backgroundImage: `url("https://www.nicesnippets.com/image/imgpsh_fullsize.png")`,backgroundRepeat: 'no-repeat',width:'250px',height:'250px',color:'white'
+          }}>
+            Nice Snippets
+          </div>
+
+        </div>
         <Wrapper>
         <Heading1White>Artisian Coffee Roaster & Wholesaler</Heading1White>
         <ContentWrapper>
