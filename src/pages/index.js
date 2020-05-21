@@ -37,7 +37,7 @@ const ContentWrapper = styled.div`
     width: auto;
     color:#ffffff;
     font-size: 1.5em;
-  padding: 20px 0px 20px 0px;
+    padding: 0px 20px 0px 20px;
 
 `
 const ThumbnailsWrapper = styled.div`
