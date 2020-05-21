@@ -6,8 +6,6 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Background from '../content/assets/bailey-coffee-background.jpg';
-
 
 const Heading1White = styled.h1`
     font-size: 3.5em;
@@ -50,22 +48,6 @@ const ThumbnailsWrapper = styled.div`
     padding: 10px 20px 10px 20px;
     margin-left:20px;
 `
-
-
-var sectionStyle = {
-  width: "100%",
-  height: "400px",
-  backgroundImage: "url(" + { Background } + ")"
-};
-
-class Section extends Component {
-  render() {
-    return (
-      <section style={ sectionStyle }>
-      </section>
-    );
-  }
-}
 
 class BlogIndex extends React.Component {
   render() {
