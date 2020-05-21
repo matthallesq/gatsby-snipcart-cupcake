@@ -60,7 +60,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
          <Wrapper>
-          <div style={{backgroundImage: `url("bailey-coffee-background.jpg")`,backgroundRepeat: 'no-repeat',width:'auto',height:'250px',color:'white'
+          <div style={{backgroundImage: `url("bailey-coffee-background.jpg")`,backgroundRepeat: 'no-repeat',width:'1280px',height:'250px',color:'white'
           }}>
 
           <Heading1White>Artisian Coffee Roaster & Wholesaler</Heading1White>
