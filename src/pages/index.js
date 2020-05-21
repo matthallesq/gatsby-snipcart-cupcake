@@ -3,7 +3,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
-
+import Img from "gatsby-image"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -66,12 +66,7 @@ const query = graphql`
   }
 `
 
-import Img from "gatsby-image"
-export ({ data }) => (
-<div>
-<Img fluid={data.file.childImageSharp.fluid} alt="Gatsby logo" />
-</div>
-)
+
 
 class BlogIndex extends React.Component {
   render() {
@@ -118,7 +113,14 @@ class BlogIndex extends React.Component {
   }
 }
 
+
 export default BlogIndex
+
+export ({ data }) => (
+<div>
+<Img fluid={data.file.childImageSharp.fluid} alt="Gatsby logo" />
+</div>
+)
 
 export const pageQuery = graphql`
   query {
