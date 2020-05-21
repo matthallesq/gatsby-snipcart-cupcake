@@ -50,6 +50,8 @@ const ThumbnailsWrapper = styled.div`
     padding: 20px;
     margin-left:20px;
 `
+const Img = styled.div`
+`
 
 
 const query = graphql`
@@ -74,7 +76,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
         import Img from "gatsby-image"
-export ({ data }) => (
+        export ({ data }) => (
   <div>
     <Img fluid={data.file.childImageSharp.fluid} alt="Gatsby logo" />
   </div>
