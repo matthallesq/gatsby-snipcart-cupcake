@@ -50,8 +50,7 @@ const ThumbnailsWrapper = styled.div`
     padding: 20px;
     margin-left:20px;
 `
-const Img = styled.img`
-`
+
 
 
 const query = graphql`
@@ -106,7 +105,7 @@ class BlogIndex extends React.Component {
           )
         })}
       </ThumbnailsWrapper>
- 
+
 
       </Layout>
     )
