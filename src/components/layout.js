@@ -15,7 +15,7 @@ const PageWrapper = styled.div`
 `
 
 const MainSection = styled.div`
-  margin: 20px 20px 20px 20px ;
+  padding: 50px;
   width: 100%;
 
 `
