@@ -56,7 +56,7 @@ const Img = styled.img`
 
 const query = graphql`
   query {
-    file(relativePath: { eq: "./content/assets/bailey-coffee-background.jpg" }) {
+    file(relativePath: { eq: "content/assets/bailey-coffee-background.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -65,6 +65,13 @@ const query = graphql`
     }
   }
 `
+
+import Img from "gatsby-image"
+export ({ data }) => (
+<div>
+<Img fluid={data.file.childImageSharp.fluid} alt="Gatsby logo" />
+</div>
+)
 
 class BlogIndex extends React.Component {
   render() {
@@ -75,12 +82,6 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
-        import Img from "gatsby-image"
-        export ({ data }) => (
-  <div>
-    <Img fluid={data.file.childImageSharp.fluid} alt="Gatsby logo" />
-  </div>
-)
         <Wrapper>
         <Heading1White>Artisian Coffee Roaster & Wholesaler</Heading1White>
         <ContentWrapper>
