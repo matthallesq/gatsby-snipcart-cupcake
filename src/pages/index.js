@@ -52,21 +52,6 @@ const ThumbnailsWrapper = styled.div`
 `
 
 
-
-const query = graphql`
-  query {
-    file(relativePath: { eq: "content/assets/bailey-coffee-background.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
-
-
-
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
@@ -114,12 +99,6 @@ class BlogIndex extends React.Component {
 
 
 export default BlogIndex
-
-export ({ data }) => (
-<div>
-<Img fluid={data.file.childImageSharp.fluid} alt="Gatsby logo" />
-</div>
-)
 
 export const pageQuery = graphql`
   query {
