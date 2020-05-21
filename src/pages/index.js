@@ -63,7 +63,7 @@ function App() {
   );
 }
 
-export default App;
+export App;
 
 class BlogIndex extends React.Component {
   render() {
