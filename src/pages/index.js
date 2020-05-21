@@ -6,7 +6,7 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Background from '../content/assets/bailey-cofee-background.jpg';
+import Background from '../content/assets/bailey-coffee-background.jpg';
 
 
 const Heading1White = styled.h1`
