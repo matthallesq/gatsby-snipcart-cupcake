@@ -108,7 +108,7 @@ class BlogIndex extends React.Component {
 }
 
 
-export default BlogIndex
+export default BlogIndex; IndexPage
 
 export const pageQuery = graphql`
   query {
