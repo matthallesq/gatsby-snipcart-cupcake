@@ -93,6 +93,8 @@ class BlogIndex extends React.Component {
         })}
       </ThumbnailsWrapper>
 
+      
+
 
       </Layout>
     )
@@ -100,13 +102,13 @@ class BlogIndex extends React.Component {
 }
 
 const IndexPage = props => (
-  <Layout>
+
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <Link to="/page-2/">Go to page 2</Link>
     <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-  </Layout>
+ 
 );
 
 export default BlogIndex; IndexPage
@@ -118,7 +120,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    imageOne: file(relativePath: { eq: "./bailey-coffee-background.jpg" }) {
+    imageOne: file(relativePath: { eq: ".../content/assets/bailey-coffee-background.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
