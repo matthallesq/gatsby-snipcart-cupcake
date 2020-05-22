@@ -51,6 +51,15 @@ const ThumbnailsWrapper = styled.div`
     margin-left:20px;
 `
 
+const IndexPage = props => (
+  <Layout>
+    <h1>Hi people</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+    <Link to="/page-2/">Go to page 2</Link>
+    <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+  </Layout>
+);
 
 class BlogIndex extends React.Component {
   render() {
@@ -73,7 +82,6 @@ class BlogIndex extends React.Component {
           We are traditionalists who love to roast and toast. We enjoy our role in the preparation of traditional artisan espresso, from sourcing and roasting to the final cup. Café humane, handled with utmost care at all times.
           </ContentWrapper>
           </Wrapper>
-          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
 
 
       <ThumbnailsWrapper>
