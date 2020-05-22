@@ -6,6 +6,7 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Img from 'gatsby-image';
 
 const Heading1White = styled.h1`
     font-size: 3.5em;
@@ -72,6 +73,7 @@ class BlogIndex extends React.Component {
           </ContentWrapper>
           </Wrapper>
 
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
 
       <ThumbnailsWrapper>
             <Heading1>Products</Heading1>
@@ -113,6 +115,12 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          {
+            imageOne: file(relativePath: { eq: "bailey-coffee-background.jpg" }) {
+              childImageSharp {
+                fluid(maxWidth: 1000) {
+                  ...GatsbyImageSharpFluid
+                }
           frontmatter {
             title
             price
