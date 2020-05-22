@@ -117,7 +117,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    imageOne: file(relativePath: { eq: "bailey-coffee-background.jpg" }) {
+    imageOne: file(relativePath: { eq: "./bailey-coffee-background.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
