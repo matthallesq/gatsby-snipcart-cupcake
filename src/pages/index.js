@@ -6,6 +6,8 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Img from 'gatsby-image';
+
 
 const Heading1White = styled.h1`
     font-size: 3.5em;
@@ -71,6 +73,7 @@ class BlogIndex extends React.Component {
           We are traditionalists who love to roast and toast. We enjoy our role in the preparation of traditional artisan espresso, from sourcing and roasting to the final cup. Café humane, handled with utmost care at all times.
           </ContentWrapper>
           </Wrapper>
+          <Img fluid={props.data.imageOne.childImageSharp.fluid} />
 
 
       <ThumbnailsWrapper>
@@ -134,4 +137,5 @@ export const pageQuery = graphql`
       }
     }
   }
+}
 `
