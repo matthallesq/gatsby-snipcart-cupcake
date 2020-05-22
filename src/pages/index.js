@@ -115,6 +115,7 @@ export const pageQuery = graphql`
           ...GatsbyImageSharpFluid
         }
       }
+    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
@@ -137,5 +138,4 @@ export const pageQuery = graphql`
       }
     }
   }
-}
 `
