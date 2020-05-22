@@ -7,9 +7,6 @@ import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-
-
-
 const Heading1White = styled.h1`
     font-size: 3.5em;
     padding: 10px;
@@ -74,9 +71,6 @@ class BlogIndex extends React.Component {
           We are traditionalists who love to roast and toast. We enjoy our role in the preparation of traditional artisan espresso, from sourcing and roasting to the final cup. Café humane, handled with utmost care at all times.
           </ContentWrapper>
           </Wrapper>
-
-
-
 
 
       <ThumbnailsWrapper>
