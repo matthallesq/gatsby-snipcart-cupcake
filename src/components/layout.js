@@ -65,6 +65,7 @@ class Layout extends React.Component {
     }
 
     return (
+      <img src={HeroImg} alt="A dog smiling in a party hat" /></img>
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyle />
@@ -75,7 +76,6 @@ class Layout extends React.Component {
           </PageWrapper>
         </>
       </ThemeProvider>
-          <img src={HeroImg} alt="A dog smiling in a party hat" />
 
     )
   }
