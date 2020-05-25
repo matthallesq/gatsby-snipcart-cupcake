@@ -112,10 +112,10 @@ export const pageQuery = graphql`
         title
       }
     }
-  }
-      indexImage: file {relativePath: { eq: "bailey-background-image.jpg" } 
+
+      indexImage: file(relativePath: { eq: "bailey-background-image.jpg" }) {
       childImageSharp{
-         fluid (maxWidth:1800) {
+         fluid(maxWidth:1800) {
            ...GastbyImageSharpFluid
          
       }
@@ -140,4 +140,5 @@ export const pageQuery = graphql`
           }
         }
       }
+    }
 `
