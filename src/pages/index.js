@@ -6,8 +6,6 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BackgroundImage from "gatsby-backround-image"
-
 
 const Heading1White = styled.h1`
     font-size: 3.5em;
@@ -50,6 +48,8 @@ const ThumbnailsWrapper = styled.div`
     margin-left:20px;
 `
 
+
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
@@ -59,12 +59,10 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
+        <BackgroundImage>
 
          <Wrapper>
-          <BackgroundImage
-            fluid={props.data.indexImage.childImageSharp.fluid}
-          >
-          </BackgroundImage>
+         <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
 
           <Heading1White>Artisian Coffee Roaster & Wholesaler</Heading1White>
           <ContentWrapper>
@@ -77,7 +75,7 @@ class BlogIndex extends React.Component {
           We are traditionalists who love to roast and toast. We enjoy our role in the preparation of traditional artisan espresso, from sourcing and roasting to the final cup. Café humane, handled with utmost care at all times.
           </ContentWrapper>
           </Wrapper>
-       
+          </BackgroundImage>
       <ThumbnailsWrapper>
             <Heading1>Products</Heading1>
         {items.map(({ node }) => {
@@ -112,13 +110,6 @@ export const pageQuery = graphql`
         title
       }
     }
-    indexImage: file(relativePath: { eq: "bailey-background-image.jpg" }) {
-      childImageSharp{
-         fluid(maxWidth:1800) {
-           ...GastbyImageSharpFluid
-        } 
-      }
-    }  
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
@@ -140,5 +131,5 @@ export const pageQuery = graphql`
         }
       }
     }
-  } 
+  }
 `
