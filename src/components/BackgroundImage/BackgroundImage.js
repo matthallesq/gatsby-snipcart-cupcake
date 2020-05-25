@@ -4,8 +4,8 @@ import { Link } from "gatsby";
 import Img from "gatsby-image";
 
 
-const ItemThumbnailStyled = styled.div`
-    width: 350px;
+const BackgroundImage = styled.div`
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,27 +22,6 @@ const ItemThumbnailStyled = styled.div`
       }
 `
 
-const Heading2 = styled.h2`
-    font-size: 2.5em;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    min-height: 85px;
-    margin: auto;
-
-`
-
-const LinkStyled = styled(Link)`
-    width: 100%;
-    box-shadow: none;
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`
-
 const ImgStyled = styled(Img)`
     width: 100%;
     height: 350px;
@@ -56,16 +35,11 @@ const Price = styled.p`
     padding-bottom: 10px;
 `
 
-const itemThumbnail = (props) => {
+const BackgroundImage = (props) => {
     return (
-        <ItemThumbnailStyled>
-            <LinkStyled to={props.link}>
                 <ImgStyled fluid={props.image} />
-                <Heading2>{props.heading}</Heading2>
-            </LinkStyled>
-            <Price> From ${props.price.toFixed(2)}</Price>
-        </ItemThumbnailStyled >
+        
     )
 }
 
-export default itemThumbnail;
+export default BackgroundImage;
