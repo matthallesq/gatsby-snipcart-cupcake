@@ -94,7 +94,7 @@ class BlogIndex extends React.Component {
       </ThumbnailsWrapper>
 
       
-        <Img></Img>
+      <Img fluid={props.data.imageOne.childImageSharp.fluid} />
 
       </Layout>
     )
@@ -103,7 +103,6 @@ class BlogIndex extends React.Component {
 
 const IndexPage = props => (
 
-    <Img fluid={props.data.imageOne.childImageSharp.fluid} />
  
 );
 
