@@ -30,6 +30,8 @@ const Heading1 = styled.h1`
 
 const Wrapper = styled.section`
   background:#646C79;
+  width: 100%;
+
 
 `
 
