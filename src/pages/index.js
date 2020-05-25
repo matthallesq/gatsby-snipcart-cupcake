@@ -6,7 +6,6 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img from 'gatsby-image';
 
 
 const Heading1White = styled.h1`
@@ -30,7 +29,6 @@ const Heading1 = styled.h1`
 
 const Wrapper = styled.section`
   background:#646C79;
-  padding: 20px 10px 10px 20px;
 
 `
 
@@ -101,13 +99,8 @@ class BlogIndex extends React.Component {
   }
 }
 
-const IndexPage = props => (
 
-    <Img fluid={props.data.imageOne.childImageSharp.fluid} />
- 
-);
-
-export default BlogIndex; IndexPage
+export default BlogIndex
 
 export const pageQuery = graphql`
   query {
