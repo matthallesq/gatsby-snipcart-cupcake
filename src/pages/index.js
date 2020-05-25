@@ -62,7 +62,9 @@ class BlogIndex extends React.Component {
 
          <Wrapper>
          <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
-          <BackgroundImage>
+          <BackgroundImage
+            fluid={props.data.indexImage.childImageSharp.fluid}
+          >
           <Heading1White>Artisian Coffee Roaster & Wholesaler</Heading1White>
           <ContentWrapper>
           Bailey coffee is renowned for our pursuit of knowledge about traditional artisan espresso and associated machinery used for its preparation, handmade of shiny metal. Established in North Melbourne in 2006 after acquiring the relevant experience, skills and tools to produce quality artisan coffee.
@@ -110,13 +112,13 @@ export const pageQuery = graphql`
         title
       }
     }
-      indexImage: file{relativePath: { eq: "bailey-background-image.jpg" } 
+      indexImage: file {relativePath: { eq: "bailey-background-image.jpg" } 
       childImageSharp{
          fluid (maxWidth:1800) {
-           ...
+           ...GastbyImageSharpFluid
          }
       }
-
+    }  
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
