@@ -112,11 +112,12 @@ export const pageQuery = graphql`
         title
       }
     }
+  }
       indexImage: file {relativePath: { eq: "bailey-background-image.jpg" } 
       childImageSharp{
          fluid (maxWidth:1800) {
            ...GastbyImageSharpFluid
-         }
+         
       }
     }  
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -139,6 +140,4 @@ export const pageQuery = graphql`
           }
         }
       }
-    }
-  }
 `
