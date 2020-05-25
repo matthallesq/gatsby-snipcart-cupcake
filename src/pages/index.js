@@ -61,7 +61,6 @@ class BlogIndex extends React.Component {
         <SEO title="All items" />
 
          <Wrapper>
-         <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
           <BackgroundImage
             fluid={props.data.indexImage.childImageSharp.fluid}
           >
