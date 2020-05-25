@@ -94,18 +94,18 @@ class BlogIndex extends React.Component {
       </ThumbnailsWrapper>
 
       
-
+        <Img></Img>
 
       </Layout>
-      const IndexPage = props => (
-
-        <Img fluid={props.data.imageOne.childImageSharp.fluid} />
-     
-    );
     )
   }
 }
 
+const IndexPage = props => (
+
+    <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+ 
+);
 
 export default BlogIndex; IndexPage
 
