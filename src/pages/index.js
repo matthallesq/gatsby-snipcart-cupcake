@@ -6,6 +6,7 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Img from 'gatsby-image';
 
 
 const Heading1White = styled.h1`
@@ -36,7 +37,7 @@ const ContentWrapper = styled.div`
     width: auto;
     color:#ffffff;
     font-size: 1.5em;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
 
 `
 const ThumbnailsWrapper = styled.div`
