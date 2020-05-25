@@ -89,7 +89,7 @@ class BlogIndex extends React.Component {
         })}
       </ThumbnailsWrapper>
 
-      <img src={`../static/bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
+      <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
 
 
       </Layout>
