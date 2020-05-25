@@ -7,6 +7,8 @@ import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from 'gatsby-image';
+import HeroImg from "../content/assets/bailey-coffee-background.jpg";
+
 
 
 const Heading1White = styled.h1`
@@ -75,6 +77,7 @@ class BlogIndex extends React.Component {
           We are traditionalists who love to roast and toast. We enjoy our role in the preparation of traditional artisan espresso, from sourcing and roasting to the final cup. Café humane, handled with utmost care at all times.
           </ContentWrapper>
           </Wrapper>
+          <img src={HeroImg} alt="A dog smiling in a party hat" />
 
 
       <ThumbnailsWrapper>

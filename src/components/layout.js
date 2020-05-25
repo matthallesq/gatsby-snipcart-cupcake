@@ -2,14 +2,10 @@ import React from "react";
 import styled, { ThemeProvider } from 'styled-components';
 import { theme } from '../styles/theme';
 import { GlobalStyle } from '../styles/globalStyle';
-import HeaderMain from './Headers/HeaderMain';
 import HeaderMinor from './Headers/HeaderMinor';
-import HeroImg from "../content/assets/bailey-coffee-background.jpg";
-
 
 
 const PageWrapper = styled.div`
-  width: 100%;
   width: 100%;
 
 `
@@ -65,7 +61,6 @@ class Layout extends React.Component {
     }
 
     return (
-      <img src={HeroImg} alt="A dog smiling in a party hat" /></img>
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyle />
@@ -76,7 +71,6 @@ class Layout extends React.Component {
           </PageWrapper>
         </>
       </ThemeProvider>
-
     )
   }
 }
