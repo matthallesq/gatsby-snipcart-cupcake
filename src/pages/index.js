@@ -48,8 +48,6 @@ const ThumbnailsWrapper = styled.div`
     margin-left:20px;
 `
 
-
-
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
