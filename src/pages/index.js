@@ -6,9 +6,6 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import HeroImg from "content/assets/bailey-coffee-background.jpg";
-
-
 
 const Heading1White = styled.h1`
     font-size: 3.5em;
@@ -32,8 +29,6 @@ const Heading1 = styled.h1`
 const Wrapper = styled.section`
   background:#646C79;
   width: 100%;
-
-
 `
 
 const ContentWrapper = styled.div`
@@ -96,7 +91,7 @@ class BlogIndex extends React.Component {
         })}
       </ThumbnailsWrapper>
 
-      
+      <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
 
 
       </Layout>
@@ -112,13 +107,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    imageOne: file(relativePath: { eq: ".../content/assets/bailey-coffee-background.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
-        }
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
