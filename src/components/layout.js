@@ -2,9 +2,10 @@ import React from "react";
 import styled, { ThemeProvider } from 'styled-components';
 import { theme } from '../styles/theme';
 import { GlobalStyle } from '../styles/globalStyle';
-
 import HeaderMain from './Headers/HeaderMain';
 import HeaderMinor from './Headers/HeaderMinor';
+import HeroImg from "../content/assets/bailey-coffee-background.jpg";
+
 
 
 const PageWrapper = styled.div`
@@ -74,8 +75,11 @@ class Layout extends React.Component {
           </PageWrapper>
         </>
       </ThemeProvider>
+          <img src={HeroImg} alt="A dog smiling in a party hat" />
+
     )
   }
 }
 
 export default Layout
+
