@@ -141,4 +141,5 @@ export const pageQuery = graphql`
         }
       }
     }
+  } 
 `
