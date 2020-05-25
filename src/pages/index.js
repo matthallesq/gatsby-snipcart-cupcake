@@ -6,8 +6,7 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img from 'gatsby-image';
-import HeroImg from "../content/assets/bailey-coffee-background.jpg";
+import HeroImg from "content/assets/bailey-coffee-background.jpg";
 
 
 
