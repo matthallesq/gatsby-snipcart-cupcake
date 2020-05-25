@@ -4,7 +4,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail';
-import BackgroundImage from '../components/BackgroundImage/BackgroundImage';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -60,7 +59,6 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
-        <BackgroundImage>
 
          <Wrapper>
          <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
@@ -76,7 +74,7 @@ class BlogIndex extends React.Component {
           We are traditionalists who love to roast and toast. We enjoy our role in the preparation of traditional artisan espresso, from sourcing and roasting to the final cup. Café humane, handled with utmost care at all times.
           </ContentWrapper>
           </Wrapper>
-          </BackgroundImage>
+       
       <ThumbnailsWrapper>
             <Heading1>Products</Heading1>
         {items.map(({ node }) => {
