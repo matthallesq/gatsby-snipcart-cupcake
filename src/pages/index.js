@@ -117,7 +117,7 @@ export const pageQuery = graphql`
       childImageSharp{
          fluid(maxWidth:1800) {
            ...GastbyImageSharpFluid
-         
+        } 
       }
     }  
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
