@@ -44,7 +44,7 @@ const ThumbnailsWrapper = styled.div`
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 20px 20px;
     margin-left:20px;
 `
 
@@ -71,8 +71,6 @@ class BlogIndex extends React.Component {
           We are traditionalists who love to roast and toast. We enjoy our role in the preparation of traditional artisan espresso, from sourcing and roasting to the final cup. Café humane, handled with utmost care at all times.
           </ContentWrapper>
           </Wrapper>
-          <img src={HeroImg} alt="A dog smiling in a party hat" />
-
 
       <ThumbnailsWrapper>
             <Heading1>Products</Heading1>
