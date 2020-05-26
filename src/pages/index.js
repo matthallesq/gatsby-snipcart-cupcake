@@ -27,11 +27,6 @@ const Heading1 = styled.h1`
     margin: auto;
 `
 
-const Wrapper = styled.section`
-  background:#646C79;
-  width: 100%;
-`
-
 const ContentWrapper = styled.div`
     width: auto;
     color:#ffffff;
@@ -61,7 +56,6 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
          <Wrapper>
-         <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
          <Heading1White>Artisan Coffee Roaster & Wholesaler </Heading1White>
           <ContentWrapper>
           Bailey coffee is renowned for our pursuit of knowledge about traditional artisan espresso and associated machinery used for its preparation, handmade of shiny metal. Established in North Melbourne in 2006 after acquiring the relevant experience, skills and tools to produce quality artisan coffee.
