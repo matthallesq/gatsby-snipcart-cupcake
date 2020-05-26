@@ -50,17 +50,15 @@ const ThumbnailsWrapper = styled.div`
 `
 
 
-
 const IndexPage = props =>  (
 
-  <BackgroundImage
-  fluid={props.data.indexImage.childImageSharp.fluid}
-  >
-  <h1>Test</h1> 
-  </BackgroundImage>
 
-)
-
+       <BackgroundImage
+          fluid={props.data.indexImage.childImageSharp.fluid}
+         >
+         Test 
+         </BackgroundImage>
+         )
 
 class BlogIndex extends React.Component {
   render() {
@@ -72,6 +70,8 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
          <Wrapper>
+         <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
+         <Heading1White>Artisian Coffee Roaster & Wholesaler </Heading1White>
           <ContentWrapper>
           Bailey coffee is renowned for our pursuit of knowledge about traditional artisan espresso and associated machinery used for its preparation, handmade of shiny metal. Established in North Melbourne in 2006 after acquiring the relevant experience, skills and tools to produce quality artisan coffee.
           </ContentWrapper>
@@ -107,7 +107,7 @@ class BlogIndex extends React.Component {
 }
 
 
-export default BlogIndex; IndexPage
+export default BlogIndex, IndexPage
 
 export const pageQuery = graphql`
   query {
