@@ -49,7 +49,7 @@ const ThumbnailsWrapper = styled.div`
     margin-left:20px;
 
 `
-const BG = BG.BackgroundImage`
+const BackgroundImage = styled.div`
     width: 100%;
     height: 60vh; 
     background-size: cover;
@@ -57,6 +57,7 @@ const BG = BG.BackgroundImage`
     background: #646C79;
     background-repeat: no-repeat;
     margin-bottom: 10px;
+
 `
 
 const IndexPage = props =>  (
