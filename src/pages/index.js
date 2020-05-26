@@ -52,7 +52,6 @@ const ThumbnailsWrapper = styled.div`
 
 const IndexPage = props =>  (
 
-
        <BackgroundImage
           fluid={props.data.indexImage.childImageSharp.fluid}
          >
@@ -107,7 +106,7 @@ class BlogIndex extends React.Component {
 }
 
 
-export default BlogIndex; IndexPage
+export default IndexPage
 
 export const pageQuery = graphql`
   query {
