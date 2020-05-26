@@ -49,7 +49,7 @@ const ThumbnailsWrapper = styled.div`
     margin-left:20px;
 
 `
-const BG = BG.div`
+const BG = BG.BackgroundImage`
     width: 100%;
     height: 60vh; 
     background-size: cover;
