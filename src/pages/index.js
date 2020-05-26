@@ -55,7 +55,7 @@ const IndexPage = props =>  (
        <BackgroundImage
           fluid={props.data.indexImage.childImageSharp.fluid}
          >
-        <Heading1White>Test</Heading1White> 
+        <Heading1White>Artisan Coffee Roaster & Wholesaler </Heading1White> 
          </BackgroundImage>
          )
 
