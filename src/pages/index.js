@@ -56,7 +56,7 @@ const IndexPage = props =>  (
        <BackgroundImage
           fluid={props.data.indexImage.childImageSharp.fluid}
          >
-         Test 
+        <h1>Test</h1> 
          </BackgroundImage>
          )
 
@@ -71,7 +71,7 @@ class BlogIndex extends React.Component {
         <SEO title="All items" />
          <Wrapper>
          <img src={`bailey-coffee-background.jpg`} alt="A dog smiling in a party hat" />
-         <Heading1White>Artisian Coffee Roaster & Wholesaler </Heading1White>
+         <Heading1White>Artisan Coffee Roaster & Wholesaler </Heading1White>
           <ContentWrapper>
           Bailey coffee is renowned for our pursuit of knowledge about traditional artisan espresso and associated machinery used for its preparation, handmade of shiny metal. Established in North Melbourne in 2006 after acquiring the relevant experience, skills and tools to produce quality artisan coffee.
           </ContentWrapper>
