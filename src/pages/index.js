@@ -4,7 +4,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail'
-import Background from '../components/BackgroundImage/BackgroundImage'
+import Wrapper from '../components/BackgroundImage/BackgroundImage'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
