@@ -7,7 +7,6 @@ import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundImage from "gatsby-background-image"
-import BGImg from 'bailey-coffee-background.jpg';
 
 
 const Heading1White = styled.h1`
