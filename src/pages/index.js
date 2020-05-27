@@ -51,8 +51,10 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const items = data.allMarkdownRemark.edges
+    const Wrapper = data.indexImage.childImageSharp.fluid
 
     return (
+
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
          <Wrapper>
