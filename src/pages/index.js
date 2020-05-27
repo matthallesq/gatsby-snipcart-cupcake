@@ -51,7 +51,7 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const items = data.allMarkdownRemark.edges
-    const Wrapper = data.indexImage.childImageSharp.fluid
+    const Background = data.indexImage.childImageSharp.fluid
 
     return (
 
@@ -85,8 +85,6 @@ class BlogIndex extends React.Component {
           )
         })}
       </ThumbnailsWrapper>
-
-
 
       </Layout>
     )
