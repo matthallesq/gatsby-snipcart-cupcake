@@ -42,7 +42,8 @@ const ThumbnailsWrapper = styled.div`
     padding: 10px 20px 20px 20px;
     margin-left:20px;
 
-`const Wrapper = styled.div`
+`
+const Wrapper = styled.div`
     width: 100%;
     height: 60vh; 
     background-size: cover;
