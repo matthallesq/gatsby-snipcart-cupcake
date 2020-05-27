@@ -6,6 +6,7 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import BackgroundImage from "gatsby-background-image"
 import BGImg from 'bailey-coffee-background.jpg';
 
 
@@ -44,7 +45,6 @@ const ThumbnailsWrapper = styled.div`
     padding: 10px 20px 20px 20px;
     margin-left:20px;
 
-
 `
 const Wrapper = styled.div`
     width: 100%;
@@ -71,6 +71,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
          <Wrapper>
+         <<BackgroundImage>Test</BackgroundImage>
          <Heading1White>Artisan Coffee Roaster & Wholesaler </Heading1White>
           <ContentWrapper>
           Bailey coffee is renowned for our pursuit of knowledge about traditional artisan espresso and associated machinery used for its preparation, handmade of shiny metal. Established in North Melbourne in 2006 after acquiring the relevant experience, skills and tools to produce quality artisan coffee.
@@ -114,7 +115,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    indexImage: file(relativePath: { eq: "bailey-background.jpg"}) {
+    indexImage: file(relativePath: { eq: "bailey-coffee-background.jpg"}) {
       childImageSharp {
         fluid(maxWidth: 1800) {
           ...GatsbyImageSharpFluid
