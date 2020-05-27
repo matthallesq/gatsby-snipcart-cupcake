@@ -56,7 +56,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All items" />
          <Wrapper
-            fluid={props.data.indexImage.childImageSharp.fluid}
+            fluid={data.indexImage.childImageSharp.fluid}
          >
          <Heading1White>Artisan Coffee Roaster & Wholesaler </Heading1White>
           <ContentWrapper>
