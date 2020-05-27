@@ -6,6 +6,8 @@ import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import BGImg from './content/assets/bailey-background.jpg';
+
 
 const Heading1White = styled.h1`
     font-size: 3.5em;
@@ -41,6 +43,8 @@ const ThumbnailsWrapper = styled.div`
     flex-wrap: wrap;
     padding: 10px 20px 20px 20px;
     margin-left:20px;
+    background-image: url(${BGImg});
+
 
 `
 const Wrapper = styled.div`
