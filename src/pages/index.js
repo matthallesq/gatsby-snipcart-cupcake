@@ -47,12 +47,10 @@ const ThumbnailsWrapper = styled.div`
 `
 const Wrapper = styled.div`
     width: 100%;
-    height: 60vh; 
-    background-size: cover;
     background-position: center;
     background: #646C79;
     background-repeat: no-repeat;
-    margin-bottom: 10px;
+    padding: 10px;
 
 `
 
