@@ -4,7 +4,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import ItemThumbnail from '../components/ItemThumbnail/ItemThumbnail'
-import Wrapper from '../components/BackgroundImage/BackgroundImage'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -51,7 +50,6 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const items = data.allMarkdownRemark.edges
-    const Background = data.indexImage.childImageSharp.fluid
 
     return (
 
