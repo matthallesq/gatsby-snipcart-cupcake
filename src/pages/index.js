@@ -53,7 +53,6 @@ const Wrapper = styled.div`
     background: #646C79;
     background-repeat: no-repeat;
     margin-bottom: 10px;
-    background-image: url(${BGImg});
 
 `
 
