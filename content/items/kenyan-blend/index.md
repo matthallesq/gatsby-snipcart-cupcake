@@ -5,12 +5,9 @@ id: 3
 price: 20
 image: ./image1.jpg
 description: A delicious coffee blend.
-customField1:
+customField:
     name: Size
     values: [{name: '250g', priceChange: 0}, {name: '500g', priceChange: 15.00}, {name: '1kg', priceChange: 30.00}]
-customField2:  
-   name: Bean
-    values: [{name: 'ground'}, {name: 'goopy'}, {name: 'Plunger'}]
 ---
 
 A delicious coffee blend.
